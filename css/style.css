@@ -45,6 +45,7 @@ html {
           html body .header h3 {
             margin-top: 8%; } }
     html body .menu {
+      position: -webkit-sticky;
       position: sticky;
       top: 0;
       padding: 1%;
@@ -70,7 +71,8 @@ html {
             text-decoration: none;
             padding: 1%;
             color: #444;
-            transition: 0.2s;
+            -webkit-transition: 0.2s;
+                    transition: 0.2s;
             font-size: 20px; }
             html body .menu ul li a:hover {
               color: #1ca2ed;
@@ -162,7 +164,8 @@ html {
         html body .page .button-wrapper a.main-button, html body .page .button-wrapper input.main-button {
           margin: 2%;
           padding: 1% 2%;
-          transition: all 0.2s;
+          -webkit-transition: all 0.2s;
+                  transition: all 0.2s;
           text-decoration: none;
           color: white;
           border-radius: 4px;
@@ -180,7 +183,8 @@ html {
         html body .page .button-wrapper a.blue-button, html body .page .button-wrapper input.blue-button {
           margin: 2%;
           padding: 1% 2%;
-          transition: all 0.2s;
+          -webkit-transition: all 0.2s;
+                  transition: all 0.2s;
           text-decoration: none;
           color: white;
           border-radius: 4px;
@@ -198,7 +202,8 @@ html {
         html body .page .button-wrapper a.red-button, html body .page .button-wrapper input.red-button {
           margin: 2%;
           padding: 1% 2%;
-          transition: all 0.2s;
+          -webkit-transition: all 0.2s;
+                  transition: all 0.2s;
           text-decoration: none;
           color: white;
           border-radius: 4px;
@@ -216,7 +221,8 @@ html {
         html body .page .button-wrapper a.green-button, html body .page .button-wrapper input.green-button {
           margin: 2%;
           padding: 1% 2%;
-          transition: all 0.2s;
+          -webkit-transition: all 0.2s;
+                  transition: all 0.2s;
           text-decoration: none;
           color: white;
           border-radius: 4px;
@@ -234,7 +240,8 @@ html {
         html body .page .button-wrapper a.cyan-button, html body .page .button-wrapper input.cyan-button {
           margin: 2%;
           padding: 1% 2%;
-          transition: all 0.2s;
+          -webkit-transition: all 0.2s;
+                  transition: all 0.2s;
           text-decoration: none;
           color: white;
           border-radius: 4px;
@@ -252,7 +259,8 @@ html {
         html body .page .button-wrapper a.yellow-button, html body .page .button-wrapper input.yellow-button {
           margin: 2%;
           padding: 1% 2%;
-          transition: all 0.2s;
+          -webkit-transition: all 0.2s;
+                  transition: all 0.2s;
           text-decoration: none;
           color: white;
           border-radius: 4px;
@@ -270,7 +278,8 @@ html {
         html body .page .button-wrapper a.teal-button, html body .page .button-wrapper input.teal-button {
           margin: 2%;
           padding: 1% 2%;
-          transition: all 0.2s;
+          -webkit-transition: all 0.2s;
+                  transition: all 0.2s;
           text-decoration: none;
           color: white;
           border-radius: 4px;
@@ -288,7 +297,8 @@ html {
         html body .page .button-wrapper a.black-button, html body .page .button-wrapper input.black-button {
           margin: 2%;
           padding: 1% 2%;
-          transition: all 0.2s;
+          -webkit-transition: all 0.2s;
+                  transition: all 0.2s;
           text-decoration: none;
           color: white;
           border-radius: 4px;
@@ -307,7 +317,7 @@ html {
         font-size: 1.2em; }
       html body .page img {
         display: block;
-        width: auto;
+        width: 90%;
         padding: 1%;
         margin: auto; }
         html body .page img.screen-shot {
@@ -367,7 +377,8 @@ html {
           html body .page fieldset form a.main-button, html body .page fieldset form input.main-button {
             margin: 2%;
             padding: 1% 2%;
-            transition: all 0.2s;
+            -webkit-transition: all 0.2s;
+                    transition: all 0.2s;
             text-decoration: none;
             color: white;
             border-radius: 4px;
@@ -385,7 +396,8 @@ html {
           html body .page fieldset form a.blue-button, html body .page fieldset form input.blue-button {
             margin: 2%;
             padding: 1% 2%;
-            transition: all 0.2s;
+            -webkit-transition: all 0.2s;
+                    transition: all 0.2s;
             text-decoration: none;
             color: white;
             border-radius: 4px;
@@ -403,7 +415,8 @@ html {
           html body .page fieldset form a.red-button, html body .page fieldset form input.red-button {
             margin: 2%;
             padding: 1% 2%;
-            transition: all 0.2s;
+            -webkit-transition: all 0.2s;
+                    transition: all 0.2s;
             text-decoration: none;
             color: white;
             border-radius: 4px;
@@ -421,7 +434,8 @@ html {
           html body .page fieldset form a.green-button, html body .page fieldset form input.green-button {
             margin: 2%;
             padding: 1% 2%;
-            transition: all 0.2s;
+            -webkit-transition: all 0.2s;
+                    transition: all 0.2s;
             text-decoration: none;
             color: white;
             border-radius: 4px;
@@ -439,7 +453,8 @@ html {
           html body .page fieldset form a.cyan-button, html body .page fieldset form input.cyan-button {
             margin: 2%;
             padding: 1% 2%;
-            transition: all 0.2s;
+            -webkit-transition: all 0.2s;
+                    transition: all 0.2s;
             text-decoration: none;
             color: white;
             border-radius: 4px;
@@ -457,7 +472,8 @@ html {
           html body .page fieldset form a.yellow-button, html body .page fieldset form input.yellow-button {
             margin: 2%;
             padding: 1% 2%;
-            transition: all 0.2s;
+            -webkit-transition: all 0.2s;
+                    transition: all 0.2s;
             text-decoration: none;
             color: white;
             border-radius: 4px;
@@ -475,7 +491,8 @@ html {
           html body .page fieldset form a.teal-button, html body .page fieldset form input.teal-button {
             margin: 2%;
             padding: 1% 2%;
-            transition: all 0.2s;
+            -webkit-transition: all 0.2s;
+                    transition: all 0.2s;
             text-decoration: none;
             color: white;
             border-radius: 4px;
@@ -493,7 +510,8 @@ html {
           html body .page fieldset form a.black-button, html body .page fieldset form input.black-button {
             margin: 2%;
             padding: 1% 2%;
-            transition: all 0.2s;
+            -webkit-transition: all 0.2s;
+                    transition: all 0.2s;
             text-decoration: none;
             color: white;
             border-radius: 4px;
@@ -525,5 +543,6 @@ html {
         font-weight: normal; }
       html body .footer p {
         margin: 0; }
-
-/*# sourceMappingURL=style.css.map */
+      html body .footer a {
+        text-decoration: none;
+        color: #e6e6e6; }

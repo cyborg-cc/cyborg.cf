@@ -244,7 +244,7 @@ html{
 
             img{
                 display: block;
-                width: auto;
+                width: 90%;
                 padding: 1%;
                 margin: auto;
 
@@ -359,6 +359,10 @@ html{
 
             p{
                 margin: 0;
+            }
+            a{
+                text-decoration: none;
+                color: $light;
             }
         }
     }
